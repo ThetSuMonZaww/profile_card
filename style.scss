@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=DM+Sans:wght@400;500;700&family=Josefin+Sans:wght@300;400;500&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@300;400;500;600&family=Padauk:wght@400;700&display=swap');
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "node_modules/animate.css/animate.min.css";
+
+$font-family: 'Kumbh Sans', sans-serif;
+
+.body-bg{
+  background-color: #1ba1ad;
+  background-image: url("img/bg-pattern-top.svg"), url("img/bg-pattern-bottom.svg");
+  background-position: -250px -400px, 870px 350px;
+  background-repeat: no-repeat, no-repeat;
+}
+
+
+.profile-box{
+  width: 350px;
+  border-radius: 1.5em;
+}
+
+.profile-box:hover{
+  animation: flipOutX;
+  animation-duration: 2s;
+}
+
+.bg-img{
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+.avatar-img{
+  display: block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  margin-left: 135px;
+  margin-right: auto;
+  margin-top: -38px;
+  margin-bottom: -15px;
+  position: relative;
+
+}
+
+.small-font{
+  font-size: 12px;
+}
